@@ -8,13 +8,14 @@
 * submit button that goes to httpbin - completed
 
 ##adding css
-* Use CSS to add the following to your site.
+* Use CSS to add the following to your site. Release 1
 
 * Padding and border added to at least one element
-* Margin added to at least one element
+* Margin added to at least one element - completed
 * At least one centered element (a footer message can be nice for this) - completed
 * A background image on at least one element 
 * A different font on at least one element - completed
-* A few elements styled using a class 
+* A few elements styled using a class -completed
 * A different color for visited links - completed
-* An element styled with an ID
+* An element styled with an ID -completed
+
