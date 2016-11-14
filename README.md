@@ -22,3 +22,5 @@
 ##Making it responsive 
 * Release 2
 * Add at least one media query to improve the responsiveness of your page. - completed
+* changed background color, text color for <p> and <ul li>.
+* adjusts image size when cropping browser window.
