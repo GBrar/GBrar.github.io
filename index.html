@@ -6,37 +6,36 @@
 	</head>
 
 	<body>
-		<h1 class =".centerfont">Lets talk Bond, James Bond</h1>
-			<nav .centerfont>
-				<ul>
-					<li><a href="http://www.007.com/characters/the-bonds/">About James Bond 007</a>
-						</li>
-					<li><a href="references.html">References</a>
-						</li>
-				</ul>
-			</nav>
+		<h1>Lets talk Bond, James Bond</h1>
+			<div id ="nav">
+				<nav>
+					<ul>
+						<li><a href="http://www.007.com/characters/the-bonds/">About James Bond 007</a>
+							</li>
+						<li><a href="references.html">References</a>
+							</li>
+					</ul>
+				</nav>
+			</div>
 		<center><img src="images/The-Bonds.png" alt="The Bonds"/></center>
-
-	<hr>
-		<h2 .centerfont>The history of Bond</h2>
-			<p .centerfont>James Bond was a leading American ornithologist, an expert on the birds of the Caribbean. His name was appropriated by writer Ian Fleming for his fictional spy of the same name.
+	<br>
+	<div class ="body">
+		<h2>The history of Bond</h2>
+			<p>James Bond was a leading American ornithologist, an expert on the birds of the Caribbean. His name was appropriated by writer Ian Fleming for his fictional spy of the same name.
 			</p>
 
-			<p .centerfont>A Secret Service agent, Bond was a composite based on a number of commandos whom author Ian Fleming had known during his service in the Naval Intelligence Division during World War II, to whom he added his own style and a number of his own tastes. Fleming appropriated the name from American ornithologist James Bond. Bond's code number 007 comes from one of British naval intelligence's key achievements of World War I: the breaking of the German diplomatic code.One of the German documents cracked and read by the British was the Zimmermann Telegram, which was coded 0075, and which was one of the factors that led the US entering the war. Subsequently if material was graded 00 it meant it was highly classified. Fleming later told a journalist, "When I was at the Admiralty all the top-secret signals had the double-0 prefix and I decided to borrow it for Bond".
+			<p>A Secret Service agent, Bond was a composite based on a number of commandos whom author Ian Fleming had known during his service in the Naval Intelligence Division during World War II, to whom he added his own style and a number of his own tastes. Fleming appropriated the name from American ornithologist James Bond. Bond's code number 007 comes from one of British naval intelligence's key achievements of World War I: the breaking of the German diplomatic code.One of the German documents cracked and read by the British was the Zimmermann Telegram, which was coded 0075, and which was one of the factors that led the US entering the war. Subsequently if material was graded 00 it meant it was highly classified. Fleming later told a journalist, "When I was at the Admiralty all the top-secret signals had the double-0 prefix and I decided to borrow it for Bond".
 			</p>
-	<hr>
-	<hr>
-		<h2 .centerfont>My love for the Bond Films!</h2>
-			<p .centerfont>I first walked into Blockbuster videos, near my house and saw "The World is Not Enough". My first Bond film and that sparked and everlasting love for the series. Seeing what gadgets; Q would make for Bond to use against his enemies and of course the modifications to the beautiful cars. That one movie got me hooked to wanting to watch them all and then started reading the books and watching them from the beginning. James Bond got me on a path to be a better gentleman; keeping it classly and sophisticated. Wanting to drink martinis and scotch properly, to being suave with the ladies.
+	</div>
+	<br>
+	<div class ="body">
+		<h2>My love for the Bond Films!</h2>
+			<p>I first walked into Blockbuster videos, near my house and saw "The World is Not Enough". My first Bond film and that sparked and everlasting love for the series. Seeing what gadgets; Q would make for Bond to use against his enemies and of course the modifications to the beautiful cars. That one movie got me hooked to wanting to watch them all and then started reading the books and watching them from the beginning. James Bond got me on a path to be a better gentleman; keeping it classly and sophisticated. Wanting to drink martinis and scotch properly, to being suave with the ladies.
 			</p>
-	<hr>
-	<hr>
-		<h2 .centerfont>The Bond Movies</h2>
-			<center><img src="images/Bond-Movies.jpg" alt="List of Bond Movies"/></center>
-	<hr>
-
-		<div>
-			<fieldset>
+	</div>
+		<h2>The Bond Movies</h2>
+	
+			<div class ="actorlist">
 				<ul>
 					<li>Sean Connery</li>
 						<ul>
@@ -65,7 +64,15 @@
 							<li> Octopussy (1983)</li>	
 							<li> A View to a Kill (1985)</li>
 						</ul>
-						<br>			
+				</ul>
+			</div>
+
+			<div class = "actorlist">
+				<img src="images/Bond-Movies.jpg" alt="List of Bond Movies"/>
+			</div>
+
+			<div class ="actorlist">	
+				<ul>	
 					<li>Timothy Dalton</li>
 						<ul>
 							<li>The Living Daylights (1987)</li>
@@ -88,9 +95,9 @@
 							<li>Spectre (2015)</li>
 						</ul>
 				</ul>
-			</fieldset>
-		</div>
-	<hr>
+			</div>	
+			
+	<div id= "pickyour">
 	<form name=pickyourfavbond action="https://httpbin.org/post" method="post">
 		<div>
 			<label>Pick your Favorite Bond.</label>
@@ -122,6 +129,6 @@
 		</div>
 		<button type="submit">Submit</button>
 		</form>
-	<hr>
+	</div>
 	</body>
 </html>
